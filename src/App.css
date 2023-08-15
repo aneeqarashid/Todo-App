@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TodoWrapper {
+  margin-top: 30px;
+  padding-bottom: 50px;
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px gray;
+  background-color: #1a1a40;
+
+}
+
+.input {
+  border: 1px solid white;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 45px;
+  color: white;
+  background-color: #1a1a40;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px gray;
+  outline: none;
+  padding: 20px;
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-size: 17px;
+  color: white;
+  background-color: #8758ff;
+}
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin:  20px 50px;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
